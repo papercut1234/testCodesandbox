@@ -13,10 +13,13 @@
 
 // console.log(message2);
 
-const myprofile = ["unko", 28];
+// const myprofile = ["unko", 28];
 
-const [name, age] = myprofile;
+// const [name, age] = myprofile;
 
-const message3 = `aaaa ${name} ${age}`;
+// const message3 = `aaaa ${name} ${age}`;
 
-console.log(message3);
+// console.log(message3);
+
+const sayHello = (name = "unko") => console.log(`こんにちは${name}`);
+sayHello("aho");
